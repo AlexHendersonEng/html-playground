@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Button Example</title>
+    </head>
+    <body>
+        <!-- The <button> tag is used to define a clickable button.
+             It supports the global HTML attributes as well as the 
+             following
+             
+             Attributes:
+             autofocus: Specifies that a button should automatically 
+                        get focus when the page loads
+             disabled: Specifies that a button should be disabled
+             form: Specifies one or more forms the button belongs to
+             formaction: Specifies where to send the form-data when a 
+                         form is submitted
+             formenctype: Specifies how form-data should be encoded
+                          before sending it to a server
+             formmethod: Specifies how to send form-data
+             formonvalidate: Specifies that the form-data should not
+                             be validated on submission. Only for
+                             type="submit"
+             formtarget: Specifies where to display the response after
+                         submitting the form
+             popovertarget: Specifies the target of the popover
+             popovertargetaction: Specifies the popover action of the
+                                  target
+             name: Specifies the name of the button
+             type: Specifies the type of button
+                   - button: Default. Just a button
+                   - reset: Resets the form-data to its initial values
+                   - submit: Submits the form-data
+             value: Specifies the value of the button
+        -->
+        <button type="button" onclick="handleClick()">
+            Click Me!
+        </button>
+
+        <p id="test">Hello</p>
+
+        <!-- Add some JavaScript code to handle button press event-->
+        <script>
+            function handleClick() {
+                document.getElementById("test").innerHTML = "Hello World!";
+            }
+        </script>
+    </body>
+</html>
