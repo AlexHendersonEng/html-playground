@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms Example</title>
+    </head>
+    <body>
+        <form action="" method="post">
+            <!-- Text and password input -->
+            <div>
+                <div>
+                    <label for="uname">Username</label>
+                    <input type="text" name="uname" id="uname" 
+                        placeholder="Enter your username" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="pword">Password</label>
+                    <input type="password" name="pword" id="pword" 
+                            placeholder="Enter your password" required>
+                </div>
+            </div>
+
+            <br>
+            
+            <!-- Email input -->
+            <div>
+                <label for="Email">Email</label>
+                <input type="email" name="Email" id="Email" 
+                       placeholder="example@gmail.com" required>
+            </div>
+
+            <br>
+
+            <!-- Phone input -->
+            <div>
+                <label for="Phone">Phone</label>
+                <input type="phone" name="Phone" id="Phone" 
+                       placeholder="123456" required>
+            </div>
+
+            <br>
+
+            <!-- Date input -->
+            <div>
+                <label for="DOB">Date of Birth</label>
+                <input type="date" name="DOB" id="DOB" required>
+            </div>
+
+            <br>
+
+            <!-- Number input -->
+            <div>
+                <label for="Quantity">Quantity</label>
+                <input type="number" name="Quantity" id="Quantity" 
+                       value="1" required>
+            </div>
+
+            <br>
+
+            <!-- Radio input -->
+            <div>
+                <label>Options</label>
+
+                <label for="Option_1">Option 1</label>
+                <input type="radio" name="Option 1" id="Option_1">
+
+                <label for="Option_2">Option 2</label>
+                <input type="radio" name="Option 2" id="Option_2">
+
+                <label for="Option_3">Option 3</label>
+                <input type="radio" name="Option 3" id="Option_3">
+            </div>
+
+            <br>
+
+            <!-- Select input -->
+            <div>
+                <label for="Selection">Selection</label>
+                <select name="Selection" id="Selection">
+                    <option value="selection_1">Selection 1</option>
+                    <option value="selection_2">Selection 2</option>
+                    <option value="selection_3">Selection 3</option>
+                </select>
+            </div>
+
+            <br>
+
+            <!-- Checkbox input -->
+            <div>
+                <label for="Checkbox">Checkbox</label>
+                <input type="checkbox">
+            </div>
+
+            <br>
+
+            <!-- Submit input -->
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </body>
+</html>
