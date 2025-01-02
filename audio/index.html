@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Audio Example</title>
+    </head>
+    <body>
+        <!-- The <audio> tag allows for sound to embedded into a HTML
+             document. It supports MP3, WAV and OGG. It suports
+             the global HTML attributes as well as the following.
+             
+             Attributes:
+             autoplay: Specifies that the audio will start playing as
+                       soon as it is ready.
+             controls: Specifies that the audio will have controls.
+             loop: Specifies that the audio will start over again, every
+                   time it is finished.
+             muted: Specifies that the audio output should be muted.
+             preload: Specifies if and how the author thinks the audio
+                      should be loaded when the page loads. Can be set
+                      to "none", "metadata" or "auto".
+             src: Specifies the URL of the audio file.
+        -->
+        <audio controls autoplay muted loop>
+            <!-- Multiple sources for the audio can be provided -->
+            <source src="audio/Going Home - The Soundlings.mp3" 
+                    type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </body>
+</html>
